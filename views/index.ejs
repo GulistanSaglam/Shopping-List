@@ -1,0 +1,18 @@
+<%- include('./includes/header') %>
+    <h1>Shopping App!</h1>
+    <div class="container">
+
+         <form action="/add/list" method="POST">
+                <input type="text" name="list" placeholder="Please enter item to your shopping list">
+                <button type="submit" value="Add List">Enter</button>
+         </form>
+
+        <ul >
+          <% list.forEach(lists => {%>  
+            <li>*<%= lists.list %> <a href="/delete/list/<%= lists._id %>" class="delete">Delete</a></li> 
+           <% }) %>   
+        </ul>
+        
+    </div>
+</body>
+</html>

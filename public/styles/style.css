@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(141, 248, 207);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    color:rgb(51, 91, 76);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.container  input{
+    width: 600px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.container input::placeholder {
+    opacity: 0.5;
+    color: gray;
+    padding-left: 4px;
+    font-size: 18px;
+}
+
+.container button {
+    height: 50px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(253, 27, 234);
+    background-color:rgb(253, 27, 234);
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+.container button:hover {
+    background-color:rgb(212, 4, 195);
+    border: 1px solid rgb(212, 4, 195);
+    color: white;
+}
+
+.container ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.container li{
+    min-width: 200px;
+    margin-top: 10px;
+    padding: 20px 15px;
+    color:black;
+    background-color:white;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+
+.container .delete{
+    text-decoration:none;
+    margin-left: 20px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color:rgb(254, 58, 58);
+    color: white;
+}
+
+.container .delete:hover{
+    background-color:rgb(252, 5, 5);
+}
+
+    
+

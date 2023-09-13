@@ -1,0 +1,20 @@
+{
+  "name": "Shopping List (Fullstack)",
+  "version": "1.0.0",
+  "description": "Shopping List with Express,NodeJS, Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon.js"
+  },
+  "keywords": [],
+  "author": "Gülistan Sağlam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
