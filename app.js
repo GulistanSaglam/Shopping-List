@@ -19,7 +19,7 @@ app.use(indexRoute);
 app.use(listRoute);
 
 // connect mongoose
-mongoose.connect('mongodb://127.0.0.1:27017/shopping-list', {
+mongoose.connect('mongodb://localhost:27017/shopping-list', {
      useNewUrlParser: true,
      useUnifiedTopology: true
 });
